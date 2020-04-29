@@ -1,13 +1,13 @@
 body {
-  background-color: #fff;
+  background-color: #1f201c;
   padding:50px;
   font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color:#595959;
+  color:#fff;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#e3a207;
   margin:0 0 20px;
 }
 
@@ -25,7 +25,6 @@ h1 {
 }
 
 h2 {
-  color:#393939;
   font-weight: 500;
 }
 
@@ -35,12 +34,13 @@ h3, h4, h5, h6 {
 }
 
 a {
-  color:#39c;
+  color:#3bd1ff;
   text-decoration:none;
 }
 
 a:hover {
-  color:#069;
+  color:#fff;
+  text-decoration: underline;
 }
 
 a small {
@@ -68,26 +68,34 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
-  color:#333;
+  color:#fff;
 }
 
 pre {
   padding:8px 15px;
-  background: #f8f8f8;
+  background: #272822;
   border-radius:5px;
-  border:1px solid #e5e5e5;
+  border:1px solid #272822;
   overflow-x: auto;
 }
 
 table {
   width:100%;
-  border-collapse:collapse;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: #272822;
+  border: 0px solid #272822;
 }
 
 th, td {
   text-align:left;
-  padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  padding:5px 5px;
+  border-bottom:2px solid #1f201c;
+}
+
+th, td strong {
+  color: #a6e22e;
 }
 
 dt {
@@ -96,7 +104,9 @@ dt {
 }
 
 th {
-  color:#444;
+  color:#fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 img {
@@ -114,16 +124,16 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  background: #f4f4f4;
+  background: #272822;
   border-radius:5px;
-  border:1px solid #e0e0e0;
+  border:1px solid #272822;
   width:270px;
 }
 
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #e0e0e0;
+  border-right:1px solid #1f201c;
   height:40px;
 }
 
@@ -138,7 +148,7 @@ header li:last-child a {
 header ul a {
   line-height:1;
   font-size:11px;
-  color:#999;
+  color:#fff;
   display:block;
   text-align:center;
   padding-top:6px;
@@ -146,7 +156,7 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#999;
+  color:#3bd1ff;
 }
 
 header ul a:active {
@@ -154,7 +164,7 @@ header ul a:active {
 }
 
 strong {
-  color:#222;
+  color:#fff;
   font-weight:500;
 }
 
@@ -166,7 +176,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#fff;
 }
 
 section {
